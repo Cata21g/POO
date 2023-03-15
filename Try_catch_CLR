@@ -1,0 +1,21 @@
+#include "pch.h"
+
+using namespace System;
+
+int main(array<System::String ^> ^args)
+{
+    unsigned contor = 0; int divl = 0;
+    try {
+        for (contor; contor < 5; contor++)
+        {
+            Console::WriteLine("Test Test Test {0}, {1}", "hello world", contor);
+        }
+        double div = contor / divl;
+        Console::WriteLine(divl);
+    }
+    catch (Exception^ ex)
+    {
+        Console::WriteLine("O exceptie " + ex->Message);
+    }
+    return 0;
+}
